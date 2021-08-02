@@ -4,19 +4,19 @@ const Tab = () => {
     return (
         <div className="mx-auto container py-8 px-4 flex items-center justify-center w-full">
             <ul className="w-full hidden md:flex items-center justify-center pb-2 border-b border-gray-200">
-                <li onClick={() => setActiveStatus(0)} className={activeStatus == 0 ? "py-2 px-4 cursor-pointer bg-yellow-100 ease-in duration-150 rounded text-xs xl:text-sm leading-none text-center text-yellow-700" : "py-2 px-4 cursor-pointer bg-transparent hover:bg-yellow-50 ease-in duration-150 rounded text-xs xl:text-sm leading-none text-gray-600"}>
+                <li onClick={() => setActiveStatus(0)} className={activeStatus === 0 ? "py-2 px-4 cursor-pointer bg-yellow-100 ease-in duration-150 rounded text-xs xl:text-sm leading-none text-center text-yellow-700" : "py-2 px-4 cursor-pointer bg-transparent hover:bg-yellow-50 ease-in duration-150 rounded text-xs xl:text-sm leading-none text-gray-600"}>
                     All
                 </li>
-                <li onClick={() => setActiveStatus(1)} className={activeStatus == 1 ? "py-2 px-4 cursor-pointer ml-24 bg-yellow-100 ease-in duration-150 rounded  text-xs xl:text-sm leading-none text-center text-yellow-700" : "py-2 px-4 cursor-pointer ml-24 bg-transparent hover:bg-yellow-50 ease-in duration-150 rounded text-xs xl:text-sm leading-none text-gray-600"}>
+                <li onClick={() => setActiveStatus(1)} className={activeStatus === 1 ? "py-2 px-4 cursor-pointer ml-24 bg-yellow-100 ease-in duration-150 rounded  text-xs xl:text-sm leading-none text-center text-yellow-700" : "py-2 px-4 cursor-pointer ml-24 bg-transparent hover:bg-yellow-50 ease-in duration-150 rounded text-xs xl:text-sm leading-none text-gray-600"}>
                     Outbound
                 </li>
-                <li onClick={() => setActiveStatus(2)} className={activeStatus == 2 ? "py-2 px-4 cursor-pointer bg-yellow-100 ease-in duration-150 rounded ml-24  text-xs xl:text-sm leading-none text-center text-yellow-700" : "py-2 px-4 cursor-pointer ml-24 bg-transparent hover:bg-yellow-50 ease-in duration-150 rounded text-xs xl:text-sm leading-none text-gray-600"}>
+                <li onClick={() => setActiveStatus(2)} className={activeStatus === 2 ? "py-2 px-4 cursor-pointer bg-yellow-100 ease-in duration-150 rounded ml-24  text-xs xl:text-sm leading-none text-center text-yellow-700" : "py-2 px-4 cursor-pointer ml-24 bg-transparent hover:bg-yellow-50 ease-in duration-150 rounded text-xs xl:text-sm leading-none text-gray-600"}>
                     Inbound
                 </li>
-                <li onClick={() => setActiveStatus(3)} className={activeStatus == 3 ? "py-2 px-4 cursor-pointer bg-yellow-100 ease-in duration-150 rounded ml-24  text-xs xl:text-sm leading-none text-center text-yellow-700" : "py-2 px-4 cursor-pointer ml-24 bg-transparent hover:bg-yellow-50 ease-in duration-150 rounded text-xs xl:text-sm leading-none text-gray-600"}>
+                <li onClick={() => setActiveStatus(3)} className={activeStatus === 3 ? "py-2 px-4 cursor-pointer bg-yellow-100 ease-in duration-150 rounded ml-24  text-xs xl:text-sm leading-none text-center text-yellow-700" : "py-2 px-4 cursor-pointer ml-24 bg-transparent hover:bg-yellow-50 ease-in duration-150 rounded text-xs xl:text-sm leading-none text-gray-600"}>
                     Admin
                 </li>
-                <li onClick={() => setActiveStatus(4)} className={activeStatus == 4 ? "py-2 px-4 cursor-pointer bg-yellow-100 ease-in duration-150 rounded ml-24  text-xs xl:text-sm leading-none text-center text-yellow-700" : "py-2 px-4 cursor-pointer ml-24 bg-transparent hover:bg-yellow-50 ease-in duration-150 rounded text-xs xl:text-sm leading-none text-gray-600"}>
+                <li onClick={() => setActiveStatus(4)} className={activeStatus === 4 ? "py-2 px-4 cursor-pointer bg-yellow-100 ease-in duration-150 rounded ml-24  text-xs xl:text-sm leading-none text-center text-yellow-700" : "py-2 px-4 cursor-pointer ml-24 bg-transparent hover:bg-yellow-50 ease-in duration-150 rounded text-xs xl:text-sm leading-none text-gray-600"}>
                     Misc
                 </li>
             </ul>

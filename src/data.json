@@ -1,0 +1,10 @@
+{
+    "tasks": [
+        {
+            "category": "Outbound",
+            "title": "Outbound Dashboard",
+            "desc": "A large, full-screen table that displays detailed information about all zones.",
+            "url": "https://aftlite-na.amazon.com/outbound_dashboard"
+        }
+    ]
+}
