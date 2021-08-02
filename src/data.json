@@ -1,10 +1,71 @@
 {
     "tasks": [
         {
-            "category": "Outbound",
+            "category": "Outbound Problem Solve",
             "title": "Outbound Dashboard",
             "desc": "A large, full-screen table that displays detailed information about all zones.",
             "url": "https://aftlite-na.amazon.com/outbound_dashboard"
+        }, {
+            "category": "Outbound Problem Solve",
+            "title": "Inventory",
+            "desc": "Check asins, find replacements, and adjust bins.",
+            "url": "https://aftlite-na.amazon.com/inventory"
+        }, {
+            "category": "Outbound Problem Solve",
+            "title": "Picklist Assinger",
+            "desc": "Assign Picklists to assocites",
+            "url": "https://aftlite-na.amazon.com/picklist_group/create?method=post"
+        }, {
+            "category": "Outbound Problem Solve",
+            "title": "Outbound Hub",
+            "desc": "Check totes and orderlists",
+            "url": "https://aftlite-na.amazon.com/wms"
+        }, {
+            "category": "Returns",
+            "title": "Unpack",
+            "desc": "Unpack totes",
+            "url": "https://aftlite-na.amazon.com/unpack_tote/unpack"
+        }, {
+            "category": "Returns",
+            "title": "Return Tracker",
+            "desc": "",
+            "url": "http://uste-env-1.c5thmpi2wj.us-east-1.elasticbeanstalk.com/?fc=UGA2&programId=2"
+        }, {
+            "category": "Returns",
+            "title": "Emergency Return Tool",
+            "desc": "In case of overwhelming returns",
+            "url": "https://prime-now-ops.amazon.com/ust/UWA2-UWA4?commit=Continue&location_name=UGA2&utf8"
+
+        }, {
+            "category": "Returns",
+            "title": "Inventory",
+            "desc": "Check asins, find replacements, and adjust bins.",
+            "url": "https://aftlite-na.amazon.com/inventory"
+        }, {
+            "category": "Bullpen Hero",
+            "title": "Como Dashboard",
+            "desc": "",
+            "url": "https://prime-now-ops.amazon.com/ust/UWA2-UWA4?commit=Continue&location_name=UGA2&utf8"
+        }, {
+            "category": "Bullpen Hero",
+            "title": "Picking Capacity",
+            "desc": "",
+            "url": "https://helm-iad.iad.proxy.amazon.com/#/sites/UGA2/pick-capacity-detail?startDate=2021-02-24&endDate=2021-02-24"
+        }, {
+            "category": "Bullpen Hero",
+            "title": "Labor Tracker",
+            "desc": "",
+            "url": "https://aftlite-portal.amazon.com/indirect_action"
+        }, {
+            "category": "Bullpen Hero",
+            "title": "Driver Check In",
+            "desc": "",
+            "url": "https://logistics.amazon.com/tracks/idverification/barcodeinput"
+        }, {
+            "category": "Bullpen Hero",
+            "title": "UPH Drilldown",
+            "desc": "",
+            "url": "https://aftlite-na.amazon.com/labor_tracking/uph_drilldown"
         }
     ]
 }

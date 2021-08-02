@@ -2,10 +2,21 @@ import amazonA from '../../amazon_a.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faShare} from '@fortawesome/free-solid-svg-icons'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+
+function setClipboard(value) {
+    const tempInput = document.createElement("input");
+    tempInput.style = "position: absolute; left: -1000px; top: -1000px";
+    tempInput.value = value;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempInput);
+}
+
 const Task = ({category, title, desc, url}) => {
     return (
       <>
-        <div className="rounded border-gray-300  dark:border-gray-700 border border-2">
+        <div className="rounded border-gray-300 dark:border-gray-700 border border-2">
           <div className="max-w-sm py-6 relative rounded shadow bg-white dark:bg-gray-800">
             <div className="px-6">
               <div className="w-20 h-20 mt-1 rounded-full absolute flex items-center justify-center bg-gray-100">
@@ -50,10 +61,14 @@ const Task = ({category, title, desc, url}) => {
                 </span>
                 Open
               </a>
-              <button className="mx-2 my-2 flex items-center bg-white transition duration-150 ease-in-out hover:border-gray-700 hover:text-gray-600 rounded border border-gray-600 text-gray-500 pl-3 pr-6 py-2 text-sm">
+              <button 
+                className="mx-2 my-2 flex items-center bg-white transition duration-150 ease-in-out hover:border-gray-700 hover:text-gray-600 rounded border border-gray-600 text-gray-500 pl-3 pr-6 py-2 text-sm"
+                onClick={() => setClipboard(url)} 
+                >
                 <span className="h-4 w-4 mr-2">
                   <FontAwesomeIcon icon={faShare} />
                 </span>
+                <input type="hidden" value={url} name="hiddenUrl" />
                 Copy Link
               </button>
             </div>

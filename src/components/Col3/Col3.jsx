@@ -4,7 +4,6 @@ import data from '../../data.json'
 const tasks = data.tasks
 const taskList = tasks.map(task => {
     const {category, title, desc, url} = task
-    console.log(task)
     return (
         <Task category={category} title={title} desc={desc} url={url}/>
     )
