@@ -18,7 +18,7 @@ const Tab = ({activeStatus, setActiveStatus}) => {
               All
             </li>
             <li
-              onClick={() => setActiveStatus("Returns")}
+              onClick={() => setActiveStatus("Inbound")}
               className={
                 activeStatus === "Returns"
                   ? "py-2 px-4 cursor-pointer ml-24 bg-yellow-100 ease-in duration-150 rounded  text-xs xl:text-sm leading-none text-center text-yellow-700"
@@ -28,7 +28,7 @@ const Tab = ({activeStatus, setActiveStatus}) => {
               Returns
             </li>
             <li
-              onClick={() => setActiveStatus("Outbound Problem Solve")}
+              onClick={() => setActiveStatus("Outbound")}
               className={
                 activeStatus === "Outbound Problem Solve"
                   ? "py-2 px-4 cursor-pointer bg-yellow-100 ease-in duration-150 rounded ml-24  text-xs xl:text-sm leading-none text-center text-yellow-700"
@@ -38,7 +38,7 @@ const Tab = ({activeStatus, setActiveStatus}) => {
               Outbound Problem Solve
             </li>
             <li
-              onClick={() => setActiveStatus("Bullpen Hero")}
+              onClick={() => setActiveStatus("Complaince")}
               className={
                 activeStatus === "Bullpen Hero"
                   ? "py-2 px-4 cursor-pointer bg-yellow-100 ease-in duration-150 rounded ml-24  text-xs xl:text-sm leading-none text-center text-yellow-700"
