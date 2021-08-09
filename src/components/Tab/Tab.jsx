@@ -20,32 +20,32 @@ const Tab = ({activeStatus, setActiveStatus}) => {
             <li
               onClick={() => setActiveStatus("Inbound")}
               className={
-                activeStatus === "Returns"
+                activeStatus === "Inbound"
                   ? "py-2 px-4 cursor-pointer ml-24 bg-yellow-100 ease-in duration-150 rounded  text-xs xl:text-sm leading-none text-center text-yellow-700"
                   : "py-2 px-4 cursor-pointer ml-24 bg-transparent hover:bg-yellow-50 ease-in duration-150 rounded text-xs xl:text-sm leading-none text-gray-600"
               }
             >
-              Returns
+              Inbound
             </li>
             <li
               onClick={() => setActiveStatus("Outbound")}
               className={
-                activeStatus === "Outbound Problem Solve"
+                activeStatus === "Outbound"
                   ? "py-2 px-4 cursor-pointer bg-yellow-100 ease-in duration-150 rounded ml-24  text-xs xl:text-sm leading-none text-center text-yellow-700"
                   : "py-2 px-4 cursor-pointer ml-24 bg-transparent hover:bg-yellow-50 ease-in duration-150 rounded text-xs xl:text-sm leading-none text-gray-600"
               }
             >
-              Outbound Problem Solve
+              Outbound
             </li>
             <li
               onClick={() => setActiveStatus("Complaince")}
               className={
-                activeStatus === "Bullpen Hero"
+                activeStatus === "Complaince"
                   ? "py-2 px-4 cursor-pointer bg-yellow-100 ease-in duration-150 rounded ml-24  text-xs xl:text-sm leading-none text-center text-yellow-700"
                   : "py-2 px-4 cursor-pointer ml-24 bg-transparent hover:bg-yellow-50 ease-in duration-150 rounded text-xs xl:text-sm leading-none text-gray-600"
               }
             >
-              Bullpen Hero
+              Complaince
             </li>
             <li
               onClick={() => setActiveStatus("Misc")}
