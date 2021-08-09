@@ -110,7 +110,7 @@
             ]
         },
         {
-            "category": "Inbound ",
+            "category": "Inbound",
             "title": "Marauders Map",
             "desc": "Check all POs, SLA times and future shipments",
             "url": "https://gsf-supplychain-iad.iad.proxy.amazon.com/inbound/marauders_map#midway"
