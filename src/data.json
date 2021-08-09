@@ -79,6 +79,95 @@
             "desc": "",
             "url": "https://aftlite-na.amazon.com/labor_tracking/uph_drilldown",
             "tags": []
+        },         {
+            "category": "Inbound",
+            "title": "PO by ASIN",
+            "desc": "Look up all POs for a particular ASIN.",
+            "url": "https://aftlite-na.amazon.com/receive/pos_by_asin",
+            "tags": [
+                "Problem Solve",
+                "ASIN"
+            ]
+        },
+        {
+            "category": "Inbound",
+            "title": "PO report",
+            "desc": "Find all items attached to a PO.",
+            "url": "https://aftlite-na.amazon.com/po_report/index",
+            "tags": [
+                "Problem Solve",
+                "ASIN"
+            ]
+        },
+        {
+            "category": "Inbound",
+            "title": "NYR pallets",
+            "desc": "See all open pallet in each temp zone",
+            "url": "https://aftlite-na.amazon.com/dock_receive/view_nyr_pallets",
+            "tags": [
+                "Problem Solve",
+                "ASIN"
+            ]
+        },
+        {
+            "category": "Inbound ",
+            "title": "Marauders Map",
+            "desc": "Check all POs, SLA times and future shipments",
+            "url": "https://gsf-supplychain-iad.iad.proxy.amazon.com/inbound/marauders_map#midway"
+        },
+        {
+            "category": "Inbound",
+            "title": "Intraday Fullness",
+            "desc": "Check fullness for all tempzones",
+            "url": "https://gsf-supplychain-iad.iad.proxy.amazon.com/inbound/gsf_intraday_fullness"
+        },
+        {
+            "category": "Inbound",
+            "title": "Dock Receive",
+            "desc": "Dock Recieve tool",
+            "url": "https://aftlite-na.amazon.com/dock_receive"
+        },
+        {
+            "category": "Inbound",
+            "title": "Dock Receive",
+            "desc": "Dock Recieve tool",
+            "url": "https://aftlite-na.amazon.com/dock_receive"
+        },
+        {
+            "category": "Returns",
+            "title": "Inventory",
+            "desc": "Check asins, find replacements, and adjust bins.",
+            "url": "https://aftlite-na.amazon.com/inventory"
+        },
+        {
+            "category": "Bullpen Hero",
+            "title": "Como Dashboard",
+            "desc": "",
+            "url": "https://prime-now-ops.amazon.com/ust/UWA2-UWA4?commit=Continue&location_name=UGA2&utf8"
+        },
+        {
+            "category": "Bullpen Hero",
+            "title": "Picking Capacity",
+            "desc": "",
+            "url": "https://helm-iad.iad.proxy.amazon.com/#/sites/UGA2/pick-capacity-detail?startDate=2021-02-24&endDate=2021-02-24"
+        },
+        {
+            "category": "Bullpen Hero",
+            "title": "Labor Tracker",
+            "desc": "",
+            "url": "https://aftlite-portal.amazon.com/indirect_action"
+        },
+        {
+            "category": "Bullpen Hero",
+            "title": "Driver Check In",
+            "desc": "",
+            "url": "https://logistics.amazon.com/tracks/idverification/barcodeinput"
+        },
+        {
+            "category": "Bullpen Hero",
+            "title": "UPH Drilldown",
+            "desc": "",
+            "url": "https://aftlite-na.amazon.com/labor_tracking/uph_drilldown"
         }
     ]
 }
