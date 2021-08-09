@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/amazon-fresh-homepage-prototype/static/css/main.58aa98b9.chunk.css",
-    "main.js": "/amazon-fresh-homepage-prototype/static/js/main.a1fd1201.chunk.js",
-    "main.js.map": "/amazon-fresh-homepage-prototype/static/js/main.a1fd1201.chunk.js.map",
+    "main.js": "/amazon-fresh-homepage-prototype/static/js/main.2385f70b.chunk.js",
+    "main.js.map": "/amazon-fresh-homepage-prototype/static/js/main.2385f70b.chunk.js.map",
     "runtime-main.js": "/amazon-fresh-homepage-prototype/static/js/runtime-main.fa93cdeb.js",
     "runtime-main.js.map": "/amazon-fresh-homepage-prototype/static/js/runtime-main.fa93cdeb.js.map",
     "static/js/2.fe7b79c4.chunk.js": "/amazon-fresh-homepage-prototype/static/js/2.fe7b79c4.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.fa93cdeb.js",
     "static/js/2.fe7b79c4.chunk.js",
     "static/css/main.58aa98b9.chunk.css",
-    "static/js/main.a1fd1201.chunk.js"
+    "static/js/main.2385f70b.chunk.js"
   ]
 }
