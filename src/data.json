@@ -104,10 +104,7 @@
             "title": "NYR pallets",
             "desc": "See all open pallet in each temp zone",
             "url": "https://aftlite-na.amazon.com/dock_receive/view_nyr_pallets",
-            "tags": [
-                "Problem Solve",
-                "ASIN"
-            ]
+            "tags": ["Problem Solve","ASIN"]
         },
         {
             "category": "Inbound ",
@@ -164,9 +161,9 @@
             "url": "https://logistics.amazon.com/tracks/idverification/barcodeinput"
         },
         {
-            "category": "Bullpen Hero",
+            "category": "Misc",
             "title": "UPH Drilldown",
-            "desc": "",
+            "desc": "Find rates",
             "url": "https://aftlite-na.amazon.com/labor_tracking/uph_drilldown"
         }
     ]
