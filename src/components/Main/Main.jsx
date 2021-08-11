@@ -1,4 +1,4 @@
-import Col3 from '../Col3'
+import TaskListSmall from '../TaskListSmall'
 import Tab from '../Tab'
 import {useState} from 'react'
 const Main = () => {
@@ -8,7 +8,7 @@ const Main = () => {
   <>
     <div className="container mx-auto py-10 px-6">
       <Tab activeStatus={activeStatus} setActiveStatus={setActiveStatus}/>
-      <Col3 activeStatus={activeStatus}/>
+      <TaskListSmall activeStatus={activeStatus}/>
     </div>
   </>
 )};

@@ -5,7 +5,7 @@ import {useState} from 'react'
 
 
 
-const Col3 = ({activeStatus}) => {
+const TaskListSmall = ({activeStatus}) => {
   const [search, setSearch] = useState('')
   const isFiltered = (task) => {
     const active = (activeStatus !== "All" ? task.category === activeStatus : true)
@@ -37,4 +37,4 @@ const Col3 = ({activeStatus}) => {
       </>
     );
 }
-export default Col3;
+export default TaskListSmall;
