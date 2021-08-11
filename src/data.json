@@ -110,61 +110,71 @@
             "category": "Inbound",
             "title": "Marauders Map",
             "desc": "Check all POs, SLA times and future shipments",
-            "url": "https://gsf-supplychain-iad.iad.proxy.amazon.com/inbound/marauders_map#midway"
+            "url": "https://gsf-supplychain-iad.iad.proxy.amazon.com/inbound/marauders_map#midway",
+            "tags": []
         },
         {
             "category": "Inbound",
             "title": "Intraday Fullness",
             "desc": "Check fullness for all tempzones",
-            "url": "https://gsf-supplychain-iad.iad.proxy.amazon.com/inbound/gsf_intraday_fullness"
+            "url": "https://gsf-supplychain-iad.iad.proxy.amazon.com/inbound/gsf_intraday_fullness",
+            "tags": []
         },
         {
             "category": "Inbound",
             "title": "Dock Receive",
             "desc": "Dock Recieve tool",
-            "url": "https://aftlite-na.amazon.com/dock_receive"
+            "url": "https://aftlite-na.amazon.com/dock_receive",
+            "tags": []
         },
         {
             "category": "Inbound",
             "title": "Dock Receive",
             "desc": "Dock Recieve tool",
-            "url": "https://aftlite-na.amazon.com/dock_receive"
+            "url": "https://aftlite-na.amazon.com/dock_receive",
+            "tags": []
         },
         {
             "category": "Returns",
             "title": "Inventory",
             "desc": "Check asins, find replacements, and adjust bins.",
-            "url": "https://aftlite-na.amazon.com/inventory"
+            "url": "https://aftlite-na.amazon.com/inventory",
+            "tags": []
         },
         {
             "category": "Bullpen Hero",
             "title": "Como Dashboard",
             "desc": "",
-            "url": "https://prime-now-ops.amazon.com/ust/UWA2-UWA4?commit=Continue&location_name=UGA2&utf8"
+            "url": "https://prime-now-ops.amazon.com/ust/UWA2-UWA4?commit=Continue&location_name=UGA2&utf8",
+            "tags": []
         },
         {
             "category": "Bullpen Hero",
             "title": "Picking Capacity",
             "desc": "",
-            "url": "https://helm-iad.iad.proxy.amazon.com/#/sites/UGA2/pick-capacity-detail?startDate=2021-02-24&endDate=2021-02-24"
+            "url": "https://helm-iad.iad.proxy.amazon.com/#/sites/UGA2/pick-capacity-detail?startDate=2021-02-24&endDate=2021-02-24",
+            "tags": []
         },
         {
             "category": "Bullpen Hero",
             "title": "Labor Tracker",
             "desc": "",
-            "url": "https://aftlite-portal.amazon.com/indirect_action"
+            "url": "https://aftlite-portal.amazon.com/indirect_action",
+            "tags": []
         },
         {
             "category": "Bullpen Hero",
             "title": "Driver Check In",
             "desc": "",
-            "url": "https://logistics.amazon.com/tracks/idverification/barcodeinput"
+            "url": "https://logistics.amazon.com/tracks/idverification/barcodeinput",
+            "tags": []
         },
         {
             "category": "Misc",
             "title": "UPH Drilldown",
             "desc": "Find rates",
-            "url": "https://aftlite-na.amazon.com/labor_tracking/uph_drilldown"
+            "url": "https://aftlite-na.amazon.com/labor_tracking/uph_drilldown",
+            "tags": []
         }
     ]
 }
