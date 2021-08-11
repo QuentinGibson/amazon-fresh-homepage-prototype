@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/amazon-fresh-homepage-prototype/static/css/main.6c113f6b.chunk.css",
-    "main.js": "/amazon-fresh-homepage-prototype/static/js/main.ffc50c39.chunk.js",
-    "main.js.map": "/amazon-fresh-homepage-prototype/static/js/main.ffc50c39.chunk.js.map",
-    "runtime-main.js": "/amazon-fresh-homepage-prototype/static/js/runtime-main.fa93cdeb.js",
-    "runtime-main.js.map": "/amazon-fresh-homepage-prototype/static/js/runtime-main.fa93cdeb.js.map",
+    "main.js": "/amazon-fresh-homepage-prototype/static/js/main.522f5bf8.chunk.js",
+    "main.js.map": "/amazon-fresh-homepage-prototype/static/js/main.522f5bf8.chunk.js.map",
+    "runtime-main.js": "/amazon-fresh-homepage-prototype/static/js/runtime-main.cd57e052.js",
+    "runtime-main.js.map": "/amazon-fresh-homepage-prototype/static/js/runtime-main.cd57e052.js.map",
     "static/js/2.5b95f863.chunk.js": "/amazon-fresh-homepage-prototype/static/js/2.5b95f863.chunk.js",
     "static/js/2.5b95f863.chunk.js.map": "/amazon-fresh-homepage-prototype/static/js/2.5b95f863.chunk.js.map",
-    "static/js/3.072b564e.chunk.js": "/amazon-fresh-homepage-prototype/static/js/3.072b564e.chunk.js",
-    "static/js/3.072b564e.chunk.js.map": "/amazon-fresh-homepage-prototype/static/js/3.072b564e.chunk.js.map",
+    "static/js/3.b1672585.chunk.js": "/amazon-fresh-homepage-prototype/static/js/3.b1672585.chunk.js",
+    "static/js/3.b1672585.chunk.js.map": "/amazon-fresh-homepage-prototype/static/js/3.b1672585.chunk.js.map",
     "index.html": "/amazon-fresh-homepage-prototype/index.html",
     "static/css/main.6c113f6b.chunk.css.map": "/amazon-fresh-homepage-prototype/static/css/main.6c113f6b.chunk.css.map",
     "static/js/2.5b95f863.chunk.js.LICENSE.txt": "/amazon-fresh-homepage-prototype/static/js/2.5b95f863.chunk.js.LICENSE.txt",
     "static/media/amazon-logistics-logo.7d14db66.png": "/amazon-fresh-homepage-prototype/static/media/amazon-logistics-logo.7d14db66.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fa93cdeb.js",
+    "static/js/runtime-main.cd57e052.js",
     "static/js/2.5b95f863.chunk.js",
     "static/css/main.6c113f6b.chunk.css",
-    "static/js/main.ffc50c39.chunk.js"
+    "static/js/main.522f5bf8.chunk.js"
   ]
 }
