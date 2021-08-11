@@ -9,9 +9,12 @@ const TaskListSmall = ({activeStatus}) => {
   const [search, setSearch] = useState('')
   const isFiltered = (task) => {
     const active = (activeStatus !== "All" ? task.category === activeStatus : true)
-    const searched = (task.category.includes(search) || task.desc.includes(search) || task.title.includes(search) || task.tags.includes(search))
+    const searched = (task.category.includes(search) || task.desc.includes(search) || task.title.includes(search))
     if (active) {
       if (search.trim().toLowerCase() !== "") {
+        if (!searched) {
+          return task.tags.some((tag, i) => task.tags[i].includes(search))
+        }
         return searched
       }
       return active

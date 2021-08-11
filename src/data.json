@@ -17,7 +17,7 @@
             "title": "Picklist Assinger",
             "desc": "Assign Picklists to assocites",
             "url": "https://aftlite-na.amazon.com/picklist_group/create?method=post",
-            "tags": []
+            "tags": ["problem solve"]
         }, {
             "category": "Outbound",
             "title": "Outbound Hub",
@@ -84,27 +84,21 @@
             "title": "PO by ASIN",
             "desc": "Look up all POs for a particular ASIN.",
             "url": "https://aftlite-na.amazon.com/receive/pos_by_asin",
-            "tags": [
-                "Problem Solve",
-                "ASIN"
-            ]
+            "tags": [ "problem solve", "asin" ]
         },
         {
             "category": "Inbound",
             "title": "PO report",
             "desc": "Find all items attached to a PO.",
             "url": "https://aftlite-na.amazon.com/po_report/index",
-            "tags": [
-                "Problem Solve",
-                "ASIN"
-            ]
+            "tags": [ "problem solve", "asin" ]
         },
         {
             "category": "Inbound",
             "title": "NYR pallets",
             "desc": "See all open pallet in each temp zone",
             "url": "https://aftlite-na.amazon.com/dock_receive/view_nyr_pallets",
-            "tags": ["Problem Solve","ASIN"]
+            "tags": ["problem solve","asin"]
         },
         {
             "category": "Inbound",

@@ -2,6 +2,7 @@ import amazonA from '../../amazon_a.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faShare} from '@fortawesome/free-solid-svg-icons'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import {ReactCSSTransitionGroup} from 'react-transition-group'
 
 function setClipboard(value) {
     const tempInput = document.createElement("input");
