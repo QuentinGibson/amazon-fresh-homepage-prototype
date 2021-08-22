@@ -45,7 +45,7 @@ const Tab = ({activeStatus, setActiveStatus}) => {
                   : "py-2 px-4 cursor-pointer ml-24 bg-transparent hover:bg-yellow-50 ease-in duration-150 rounded text-xs xl:text-sm leading-none text-gray-600"
               }
             >
-              Complaince
+              Compliance
             </li>
             <li
               onClick={() => setActiveStatus("Misc")}
