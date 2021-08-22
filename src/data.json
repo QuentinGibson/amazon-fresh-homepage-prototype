@@ -6,99 +6,122 @@
             "desc": "A large, full-screen table that displays detailed information about all zones.",
             "url": "https://aftlite-na.amazon.com/outbound_dashboard",
             "tags": []
-        }, {
+        },
+        {
             "category": "Outbound",
             "title": "Inventory",
             "desc": "Check asins, find replacements, and adjust bins.",
             "url": "https://aftlite-na.amazon.com/inventory",
             "tags": []
-        }, {
+        },
+        {
             "category": "Outbound",
             "title": "Picklist Assinger",
             "desc": "Assign Picklists to assocites",
             "url": "https://aftlite-na.amazon.com/picklist_group/create?method=post",
-            "tags": ["problem solve"]
-        }, {
+            "tags": [
+                "problem solve"
+            ]
+        },
+        {
             "category": "Outbound",
             "title": "Outbound Hub",
             "desc": "Check totes and orderlists",
             "url": "https://aftlite-na.amazon.com/wms",
             "tags": []
-        }, {
+        },
+        {
             "category": "Returns",
             "title": "Unpack",
             "desc": "Unpack totes",
             "url": "https://aftlite-na.amazon.com/unpack_tote/unpack",
             "tags": []
-        }, {
+        },
+        {
             "category": "Returns",
             "title": "Return Tracker",
             "desc": "",
             "url": "http://uste-env-1.c5thmpi2wj.us-east-1.elasticbeanstalk.com/?fc=UGA2&programId=2",
             "tags": []
-        }, {
+        },
+        {
             "category": "Returns",
             "title": "Emergency Return Tool",
             "desc": "In case of overwhelming returns",
             "url": "https://prime-now-ops.amazon.com/ust/UWA2-UWA4?commit=Continue&location_name=UGA2&utf8",
             "tags": []
-
-        }, {
+        },
+        {
             "category": "Returns",
             "title": "Inventory",
             "desc": "Check asins, find replacements, and adjust bins.",
             "url": "https://aftlite-na.amazon.com/inventory",
             "tags": []
-        }, {
+        },
+        {
             "category": "Bullpen Hero",
             "title": "Como Dashboard",
             "desc": "",
             "url": "https://prime-now-ops.amazon.com/ust/UWA2-UWA4?commit=Continue&location_name=UGA2&utf8",
             "tags": []
-        }, {
+        },
+        {
             "category": "Bullpen Hero",
             "title": "Picking Capacity",
             "desc": "",
             "url": "https://helm-iad.iad.proxy.amazon.com/#/sites/UGA2/pick-capacity-detail?startDate=2021-02-24&endDate=2021-02-24",
             "tags": []
-        }, {
+        },
+        {
             "category": "Bullpen Hero",
             "title": "Labor Tracker",
             "desc": "",
             "url": "https://aftlite-portal.amazon.com/indirect_action",
             "tags": []
-        }, {
+        },
+        {
             "category": "Bullpen Hero",
             "title": "Driver Check In",
             "desc": "",
             "url": "https://logistics.amazon.com/tracks/idverification/barcodeinput",
             "tags": []
-        }, {
+        },
+        {
             "category": "Bullpen Hero",
             "title": "UPH Drilldown",
             "desc": "",
             "url": "https://aftlite-na.amazon.com/labor_tracking/uph_drilldown",
             "tags": []
-        },         {
+        },
+        {
             "category": "Inbound",
             "title": "PO by ASIN",
             "desc": "Look up all POs for a particular ASIN.",
             "url": "https://aftlite-na.amazon.com/receive/pos_by_asin",
-            "tags": [ "problem solve", "asin" ]
+            "tags": [
+                "problem solve",
+                "asin"
+            ]
         },
         {
             "category": "Inbound",
             "title": "PO report",
             "desc": "Find all items attached to a PO.",
             "url": "https://aftlite-na.amazon.com/po_report/index",
-            "tags": [ "problem solve", "asin" ]
+            "tags": [
+                "problem solve",
+                "asin"
+            ]
         },
         {
             "category": "Inbound",
             "title": "NYR pallets",
             "desc": "See all open pallet in each temp zone",
             "url": "https://aftlite-na.amazon.com/dock_receive/view_nyr_pallets",
-            "tags": ["problem solve","asin"]
+            "tags": [
+                "problem solve",
+                "asin"
+            ]
         },
         {
             "category": "Inbound",
@@ -168,6 +191,32 @@
             "title": "UPH Drilldown",
             "desc": "Find rates",
             "url": "https://aftlite-na.amazon.com/labor_tracking/uph_drilldown",
+            "tags": []
+        },
+        {
+            "category": "Compliance",
+            "title": "Removals",
+            "desc": "List of Removal and ability to assign them",
+            "url": "https://aftlite-na.amazon.com/removal/view_removal_items"
+        },
+        {
+            "category": "Compliance",
+            "title": "Bin Checks",
+            "desc": "List of TT for bin checks",
+            "url": "https://tt.amazon.com/search?assigned_group=UGA2%20Site%20Ops&assigned_individual=&building_id=&case_type=&category=&cc_email=&create_date=&exact_bq=&exclude_bq=&impact=&keyword_bq=&ktimestamp=1581007654&login_name=&max_results=25&modified_date=&or_bq1=&or_bq2=&or_bq3=&phrase_search_text=&requester_login=&routingDirection=Remedy&search=Search!&sort1=create_date&sort2=&sort3=&sortdir1=asc&sortdir2=&sortdir3=&start_index=0&status=Assigned%3BResearching%3BWork%20In%20Progress%3BPending&tags=&use_the_force=Yes",
+            "tags": []
+        },
+        {
+            "category": "Compliance",
+            "title": "Inventory in Odd Locations (IOL)",
+            "desc": "List of all odd locations with Days in Inventory and ASINs",
+            "url": "https://aftlite-na.amazon.com/inventory/inventory_in_odd_location_report"
+        },
+        {
+            "category": "Compliance",
+            "title": "Non-inventoy Counts",
+            "desc": "List of all Non-inventory items that need to be counted - Due by Wednesday at 11:59",
+            "url": "https://moto.gsf.a2z.com/pending_counts.html?audit=noninventory_items&location_id=UGA2&session_id=id8yub7rlji4rkyqzorc",
             "tags": []
         }
     ]
