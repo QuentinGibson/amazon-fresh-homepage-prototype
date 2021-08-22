@@ -38,9 +38,9 @@ const Tab = ({activeStatus, setActiveStatus}) => {
               Outbound
             </li>
             <li
-              onClick={() => setActiveStatus("Complaince")}
+              onClick={() => setActiveStatus("Compliance")}
               className={
-                activeStatus === "Complaince"
+                activeStatus === "Compliance"
                   ? "py-2 px-4 cursor-pointer bg-yellow-100 ease-in duration-150 rounded ml-24  text-xs xl:text-sm leading-none text-center text-yellow-700"
                   : "py-2 px-4 cursor-pointer ml-24 bg-transparent hover:bg-yellow-50 ease-in duration-150 rounded text-xs xl:text-sm leading-none text-gray-600"
               }
