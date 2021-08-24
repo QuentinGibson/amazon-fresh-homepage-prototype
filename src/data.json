@@ -140,15 +140,15 @@
         {
             "category": "Inbound",
             "title": "Dock Receive",
-            "desc": "Dock Recieve tool",
+            "desc": "Dock recieve new incoming shipments",
             "url": "https://aftlite-na.amazon.com/dock_receive",
             "tags": []
         },
         {
             "category": "Inbound",
-            "title": "Dock Receive",
-            "desc": "Dock Recieve tool",
-            "url": "https://aftlite-na.amazon.com/dock_receive",
+            "title": "Dock Received",
+            "desc": "View shipments already docked",
+            "url": "https://aftlite-na.amazon.com/dock_receive/view_received",
             "tags": []
         },
         {
@@ -218,6 +218,47 @@
             "desc": "List of all Non-inventory items that need to be counted - Due by Wednesday at 11:59",
             "url": "https://moto.gsf.a2z.com/pending_counts.html?audit=noninventory_items&location_id=UGA2&session_id=id8yub7rlji4rkyqzorc",
             "tags": []
-        }
+        },
+        {
+            "category":"Outbound",
+            "title":"HELM",
+            "desc":"Adjust outbound capacity and looking into labour Flow",
+            "url":"https://helm-iad.iad.proxy.amazon.com/#/sites/UGA2/overview",
+            "tags":[
+                "outbound",
+                "Capacity",
+                "labor"
+            ] 
+        },
+        {
+            "category": "Inbound",
+            "title": "Intra-day Fullness", 
+            "desc": "Check the current fullness of the Bin by tempeture and category",
+            "url":"https://gsf-supplychain-iad.iad.proxy.amazon.com/inbound/gsf_intraday_fullness",
+            "tags":[
+                "inbound",
+                "fullness"
+                ]
+            },
+            {
+                "category":"Outbound",
+                "title": "Problem Solve",
+                "desc": "Main Page to everything Outbound Problem solve",
+                "url": "https://aftlite-na.amazon.com/wms",
+                "tags":[
+                    "outbound",
+                    "problem",
+                    "Solve"
+                ]
+            },           
+            {
+                "category": "Misc",
+                "title": "Script",
+                "desc": "A list of scripts that help make websites easier to navigate and read.",
+                "url": "https://github.com/JGray0705/UserScripts", 
+                "tags":[
+                    "Script"
+                ]
+            }
     ]
 }
