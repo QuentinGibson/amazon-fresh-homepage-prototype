@@ -210,7 +210,8 @@
             "category": "Compliance",
             "title": "Inventory in Odd Locations (IOL)",
             "desc": "List of all odd locations with Days in Inventory and ASINs",
-            "url": "https://aftlite-na.amazon.com/inventory/inventory_in_odd_location_report"
+            "url": "https://aftlite-na.amazon.com/inventory/inventory_in_odd_location_report",
+            "tags": []
         },
         {
             "category": "Compliance",
