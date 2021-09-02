@@ -197,7 +197,9 @@
             "category": "Compliance",
             "title": "Removals",
             "desc": "List of Removal and ability to assign them",
-            "url": "https://aftlite-na.amazon.com/removal/view_removal_items"
+            "url": "https://aftlite-na.amazon.com/removal/view_removal_items",
+            "tags": []
+
         },
         {
             "category": "Compliance",
