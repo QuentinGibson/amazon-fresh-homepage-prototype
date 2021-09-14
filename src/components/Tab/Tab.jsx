@@ -1,6 +1,6 @@
 import logo from '../../amazon-logistics-logo.png'
 import { useContext } from 'react';
-import { activeStatusContext } from '../../App';
+import { activeStatusContext } from 'App';
 const Tab = () => {
   const [activeStatus, setActiveStatus] = useContext(activeStatusContext)
   return (

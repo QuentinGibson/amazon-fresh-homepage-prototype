@@ -1,5 +1,5 @@
-import Search from '../Search'
-import useSearch from '../../hook/useSearch'
+import Search from 'components/Search'
+import useSearch from 'hook/useSearch'
 
 const TaskListSmall = () => {
   const {taskList} = useSearch()

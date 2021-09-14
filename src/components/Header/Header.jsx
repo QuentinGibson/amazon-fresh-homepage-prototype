@@ -1,5 +1,5 @@
 
-import Tab from '../Tab'
+import Tab from 'components/Tab'
 const Header = () => {
     return (
         <>

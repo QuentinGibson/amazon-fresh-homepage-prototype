@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { searchContext } from "../../App";
+import { searchContext } from "App";
 const Search = () => {
   const [, setSearch] = useContext(searchContext)
   return (
@@ -12,7 +12,12 @@ const Search = () => {
             <line x1={21} y1={21} x2={15} y2={15} />
           </svg>
         </div>
-        <input onChange={e => setSearch(e.target.value.trim().toLowerCase())} className="hidden bg-gray-700 bg-opacity-10 md:block focus:outline-none focus:border-indigo-700 w-42 rounded text-sm pl-8 py-2 placeholder-gray-200 text-gray-400" type="text" placeholder="Search here" />
+        <input
+          onChange={e => setSearch(e.target.value.trim().toLowerCase())}
+          className="hidden bg-gray-700 bg-opacity-10 md:block focus:outline-none focus:border-indigo-700 w-42 rounded text-sm pl-8 py-2 placeholder-gray-200 text-gray-400"
+          type="text"
+          placeholder="Search here"
+        />
       </div>
     </div>
   );

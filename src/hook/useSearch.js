@@ -1,7 +1,7 @@
 import { useContext } from "react"
-import { activeStatusContext, searchContext  } from "../App"
-import Task from '../Task'
-import data from '../../data.json'
+import {activeStatusContext, searchContext} from "App"
+import Task from 'components/Task'
+import data from 'data.json'
 
 export default function useSearch() {
     const [activeStatus] = useContext(activeStatusContext)

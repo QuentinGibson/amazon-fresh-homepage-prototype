@@ -1,5 +1,5 @@
-import TaskListSmall from '../TaskListSmall'
-import Tab from '../Tab'
+import TaskListSmall from 'components/TaskListSmall'
+import Tab from 'components/Tab'
 const Main = () => {
  return (
   <>
