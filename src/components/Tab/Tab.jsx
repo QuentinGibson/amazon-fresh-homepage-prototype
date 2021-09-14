@@ -84,13 +84,47 @@ const Tab = () => {
             aria-label="Selected tab"
             className="form-select block w-full p-3 border border-gray-300 rounded text-gray-600 appearance-none bg-transparent relative z-10"
           >
-            <option selected className="text-sm text-gray-600">
+            <option
+              selected
+              onClick={() => {
+                setActiveStatus("All")
+              }}
+              className="text-sm text-gray-600"
+            >
               All
             </option>
-            <option className="text-sm text-gray-600">Outbound</option>
-            <option className="text-sm text-gray-600">Inbound</option>
-            <option className="text-sm text-gray-600">Admin</option>
-            <option className="text-sm text-gray-600">Misc</option>
+            <option
+              className="text-sm text-gray-600"
+              onClick={() => {
+                setActiveStatus("Outbound")
+              }}
+            >
+              Outbound
+            </option>
+            <option
+              className="text-sm text-gray-600"
+              onClick={() => {
+                setActiveStatus('Inbound')
+              }}
+            >
+              Inbound
+            </option>
+            <option
+              className="text-sm text-gray-600"
+              onClick={() => {
+                setActiveStatus('Compliance')
+              }}
+            >
+              Compliance
+            </option>
+            <option
+              className="text-sm text-gray-600"
+              onClick={() => {
+                setActiveStatus('Misc')
+              }}
+            >
+              Misc
+            </option>
           </select>
         </div>
       </div>
