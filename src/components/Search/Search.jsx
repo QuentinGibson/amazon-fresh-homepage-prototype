@@ -1,4 +1,7 @@
-const Search = ({setSearch}) => {
+import { useContext } from "react";
+import { searchContext } from "../../App";
+const Search = () => {
+  const [, setSearch] = useContext(searchContext)
   return (
     <div>
       <div className="relative">

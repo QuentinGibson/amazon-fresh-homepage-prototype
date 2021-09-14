@@ -1,9 +1,16 @@
-import Sidebar from './components/Sidebar'
 import Main from './components/Main'
-function App() {
+import {createContext, useState} from 'react'
+
+export const activeStatusContext = createContext()
+export const searchContext = createContext()
+export default function App() {
+  const [activeStatus, setActiveStatus] = useState("All");
+  const [search, setSearch] = useState('')
   return (
-      <Main/>
+    <activeStatusContext.Provider value={[activeStatus, setActiveStatus]}>
+      <searchContext.Provider value={[search, setSearch]}>
+        <Main/>
+      </searchContext.Provider>
+    </activeStatusContext.Provider>
   );
 }
-
-export default App;
