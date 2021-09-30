@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/amazon-fresh-homepage-prototype/static/css/main.59007800.chunk.css",
-    "main.js": "/amazon-fresh-homepage-prototype/static/js/main.7e6b9be7.chunk.js",
-    "main.js.map": "/amazon-fresh-homepage-prototype/static/js/main.7e6b9be7.chunk.js.map",
-    "runtime-main.js": "/amazon-fresh-homepage-prototype/static/js/runtime-main.cd57e052.js",
-    "runtime-main.js.map": "/amazon-fresh-homepage-prototype/static/js/runtime-main.cd57e052.js.map",
-    "static/js/2.cde23969.chunk.js": "/amazon-fresh-homepage-prototype/static/js/2.cde23969.chunk.js",
-    "static/js/2.cde23969.chunk.js.map": "/amazon-fresh-homepage-prototype/static/js/2.cde23969.chunk.js.map",
-    "static/js/3.b1672585.chunk.js": "/amazon-fresh-homepage-prototype/static/js/3.b1672585.chunk.js",
-    "static/js/3.b1672585.chunk.js.map": "/amazon-fresh-homepage-prototype/static/js/3.b1672585.chunk.js.map",
+    "main.css": "/amazon-fresh-homepage-prototype/static/css/main.fc249dbe.chunk.css",
+    "main.js": "/amazon-fresh-homepage-prototype/static/js/main.422f887f.chunk.js",
+    "main.js.map": "/amazon-fresh-homepage-prototype/static/js/main.422f887f.chunk.js.map",
+    "runtime-main.js": "/amazon-fresh-homepage-prototype/static/js/runtime-main.974ced34.js",
+    "runtime-main.js.map": "/amazon-fresh-homepage-prototype/static/js/runtime-main.974ced34.js.map",
+    "static/js/2.074637eb.chunk.js": "/amazon-fresh-homepage-prototype/static/js/2.074637eb.chunk.js",
+    "static/js/2.074637eb.chunk.js.map": "/amazon-fresh-homepage-prototype/static/js/2.074637eb.chunk.js.map",
+    "static/js/3.e49075db.chunk.js": "/amazon-fresh-homepage-prototype/static/js/3.e49075db.chunk.js",
+    "static/js/3.e49075db.chunk.js.map": "/amazon-fresh-homepage-prototype/static/js/3.e49075db.chunk.js.map",
     "index.html": "/amazon-fresh-homepage-prototype/index.html",
-    "static/css/main.59007800.chunk.css.map": "/amazon-fresh-homepage-prototype/static/css/main.59007800.chunk.css.map",
-    "static/js/2.cde23969.chunk.js.LICENSE.txt": "/amazon-fresh-homepage-prototype/static/js/2.cde23969.chunk.js.LICENSE.txt",
+    "static/css/main.fc249dbe.chunk.css.map": "/amazon-fresh-homepage-prototype/static/css/main.fc249dbe.chunk.css.map",
+    "static/js/2.074637eb.chunk.js.LICENSE.txt": "/amazon-fresh-homepage-prototype/static/js/2.074637eb.chunk.js.LICENSE.txt",
     "static/media/amazon-logistics-logo.7d14db66.png": "/amazon-fresh-homepage-prototype/static/media/amazon-logistics-logo.7d14db66.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cd57e052.js",
-    "static/js/2.cde23969.chunk.js",
-    "static/css/main.59007800.chunk.css",
-    "static/js/main.7e6b9be7.chunk.js"
+    "static/js/runtime-main.974ced34.js",
+    "static/js/2.074637eb.chunk.js",
+    "static/css/main.fc249dbe.chunk.css",
+    "static/js/main.422f887f.chunk.js"
   ]
 }
