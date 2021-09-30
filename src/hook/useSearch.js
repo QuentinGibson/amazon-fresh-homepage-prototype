@@ -1,6 +1,6 @@
-import { useContext } from "react"
+import React, { useContext } from "react"
 import {activeStatusContext, searchContext} from "App"
-import Task from 'components/Task'
+import uuid from 'uuid'
 import data from 'data.json'
 
 export default function useSearch() {
@@ -27,10 +27,7 @@ export default function useSearch() {
     }
     const activeTaskList = data.tasks.filter(task => { return isFiltered(task) })
     
-    const taskList = activeTaskList.map((task) => {
-            const { category, title, desc, url } = task;
-            return <Task category={category} title={title} desc={desc} url={url} />;
-        });
 
-    return { taskList }
+
+    return { activeTaskList }
 }
