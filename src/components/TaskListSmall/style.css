@@ -1,11 +1,5 @@
-.fade-enter {
-  max-height: 0;
+.fade-enter, .fade-enter-active {
   opacity: 0;
-}
-
-.fade-enter-active {
-  opacity: 1;
-  transition: all 500ms;
 }
 
 .fade-exit {
