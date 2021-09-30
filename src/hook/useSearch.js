@@ -25,10 +25,9 @@ export default function useSearch() {
         }
         return false
     }
-    const taskList = data.tasks.filter(task => {
-        return isFiltered(task)
-    })
-        .map((task) => {
+    const activeTaskList = data.tasks.filter(task => { return isFiltered(task) })
+    
+    const taskList = activeTaskList.map((task) => {
             const { category, title, desc, url } = task;
             return <Task category={category} title={title} desc={desc} url={url} />;
         });
